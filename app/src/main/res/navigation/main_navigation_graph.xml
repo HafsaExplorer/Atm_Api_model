@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation_graph"
+    app:startDestination="@id/loginUserFragment">
+
+    <fragment
+        android:id="@+id/registerUserFragment"
+        android:name="com.example.atmapimodel.register_user.RegisterUserFragment"
+        android:label="fragment_register_user"
+        tools:layout="@layout/fragment_register_user" />
+    <fragment
+        android:id="@+id/loginUserFragment"
+        android:name="com.example.atmapimodel.login_user.LoginUserFragment"
+        android:label="fragment_login_user"
+        tools:layout="@layout/fragment_login_user" />
+    <fragment
+        android:id="@+id/depositMoneyFragment"
+        android:name="com.example.atmapimodel.deposit_money.DepositMoneyFragment"
+        android:label="fragment_deposit_money"
+        tools:layout="@layout/fragment_deposit_money" />
+    <fragment
+        android:id="@+id/deleteUserFragment"
+        android:name="com.example.atmapimodel.delete_user.DeleteUserFragment"
+        android:label="fragment_delete_user"
+        tools:layout="@layout/fragment_delete_user" />
+    <fragment
+        android:id="@+id/withdrawMoneyFragment"
+        android:name="com.example.atmapimodel.withdraw_money.WithdrawMoneyFragment"
+        android:label="fragment_withdraw_money"
+        tools:layout="@layout/fragment_withdraw_money" />
+    <fragment
+        android:id="@+id/fetchUserFragment"
+        android:name="com.example.atmapimodel.FetchUserFragment"
+        android:label="fragment_fetch_user"
+        tools:layout="@layout/fragment_fetch_user" />
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.example.atmapimodel.DashboardFragment"
+        android:label="fragment_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+</navigation>
